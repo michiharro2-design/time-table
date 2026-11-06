@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+    font-family: Arial;
+}
+
+.page {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+header h2 {
+    color: darkblue;
+}
+
+.department {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+}
+
+.timetable th,
+.timetable td {
+    border: 1px solid black;
+    padding: 8px;
+    height: 45px;
+}
+
+.timetable th {
+    background-color: lightgrey;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.practical {
+    background-color: lightyellow;
+}
+
+.lunch-cell {
+    background-color: white;
+    font-weight: bold;
+}
+
+.details-heading {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.teachers {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.teachers th,
+.teachers td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.teachers th {
+    background-color: lightgrey;
+}
+
+.signature {
+    text-align: right;
+    margin-top: 20px;
+}
+
